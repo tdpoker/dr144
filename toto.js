@@ -4,12 +4,12 @@ if (hot == "144.91.86.52") {
     function jqUpdateSize() {
         if ($(window).width() <= 960) {
             $("#footer").html(
-                '<div style="text-align: justify;"></div>'
+                '<div style="text-align: justify;"><h1>DORASLOT: AGEN TOGEL ONLINE | JUDI SLOT TERPERCAYA</h1><h2>Agen Togel Singapore Resmi Terpercaya</h2><h2>Agen Togel Hongkong Resmi Terpercaya</h2><h2>Agen Togel Madrid Resmi Terpercaya</h2></div>'
             );
             $("#footercontainer").html("");
         } else {
             $("#footercontainer").html(
-                '<div style="text-align: justify;"></div>'
+                '<div style="text-align: justify;"><h1>DORASLOT: AGEN TOGEL ONLINE | JUDI SLOT TERPERCAYA</h1><h2>Agen Togel Singapore Resmi Terpercaya</h2><h2>Agen Togel Hongkong Resmi Terpercaya</h2><h2>Agen Togel Madrid Resmi Terpercaya</h2><</div>'
             );
             $("#footer").html("");
         }
@@ -23,6 +23,10 @@ if (hot == "144.91.86.52") {
                 "content",
                 "Dora Slot adalah situs slot online pragmatic, habanero dan joker123 yang bisa kalian coba dengan ratusan game yang bisa dimainkan. Mainkan Slot, Dapatkan Jackpot dan Jadilah Sultan."
             );
+            $("meta[name='keywords']").attr(
+                "content",
+                "slot online, situs slot, pragmatic, habanero, joker123, main slot, sultan slot"
+            );
             $("link[rel='canonical']").attr("href", "http://144.91.86.52/?content=slot");
         });
     } else if (document.URL.indexOf("?content=livegames") > 0) {
@@ -32,6 +36,10 @@ if (hot == "144.91.86.52") {
                 "content",
                 "5 Livegames terbaru yang bisa kalian coba mainkan di doraslot. Ioncasino, Pragmaticplay, SexyGaming, Allbet & IdnLive adalah livegames yang bisa kalian mainkan dengan ditemani oleh pemandu cantik."
             );
+            $("meta[name='keywords']").attr(
+                "content",
+                "live games, ioncasino, pragmaticplay, sexygaming, allbet, idnlive"
+            );
             $("link[rel='canonical']").attr("href", "http://144.91.86.52/?content=livegames");
         });
     } else if (document.URL.indexOf("?content=tembakikan") > 0) {
@@ -39,7 +47,11 @@ if (hot == "144.91.86.52") {
             document.title = "Game Joker123 Terbaru | Login Joker123 Sekarang Juga";
             $("meta[name='description']").attr(
                 "content",
-                "Game joker12 terbaru dengan berbagai jackpot yang bisa didapatkan. Login sekarang juga bersama dengan Doraslot. Menangkan jackpot sampai dengan puluhan juta rupiah dan bawa pulang berbagai hadiah menarik lainnya."
+                "Game joker123 terbaru dengan berbagai jackpot yang bisa didapatkan. Login sekarang juga bersama dengan Doraslot. Menangkan jackpot sampai dengan puluhan juta rupiah dan bawa pulang berbagai hadiah menarik lainnya."
+            );
+            $("meta[name='keywords']").attr(
+                "content",
+                "joker123, jackpot joker123, game joker123, login joker123"
             );
             $("link[rel='canonical']").attr("href", "http://144.91.86.52/?content=tembakikan");
         });
@@ -47,6 +59,10 @@ if (hot == "144.91.86.52") {
         $(document).ready(function () {
             document.title = "Promosi dan Cara Klaim Bonus Doraslot";
             $("meta[name='description']").attr("content", "Informasi dan cara klaim untuk mendapatkan promosi bonus yang disediakan oleh Doraslot. Dapatkan berbagai bonus menarik seperti cashback 5% dan bonus 10% untuk yang baru pertama daftar.");
+            $("meta[name='keywords']").attr(
+                "content",
+                "promosi, cara klaim, bonus"
+            );
             $("link[rel='canonical']").attr("href", "http://144.91.86.52/?content=promosi");
         });
     } else if (document.URL.indexOf("?content=bukumimpi") > 0) {
@@ -56,36 +72,60 @@ if (hot == "144.91.86.52") {
                 "content",
                 "Buku tafsir mimpi dan erek erek dilengkapi dengan angka 2D 3D 4D yang bisa anda jadikan acuan dalam pemasangan nomor jitu mimpi anda hari ini. Buku Mimpi Online ini tidak bergambar dan hanya terdapat keterangan mimpi apa saja dan angka yang berhubungan dengan mimpi tersebut."
             );
+            $("meta[name='keywords']").attr(
+                "content",
+                "buku mimpi, tafsir mimpi, erek, buku mimpi 4d"
+            );
             $("link[rel='canonical']").attr("href", "http://144.91.86.52/?content=bukumimpi");
         });
     } else if (document.URL.indexOf("?content=hasil&pid=SY") > 0) {
         $(document).ready(function () {
             document.title = "Hasil Keluaran Togel Sidney - DoraSlot";
             $("meta[name='description']").attr("content", "Hasil keluaran togel Sidney. Untuk melihat angka berapa yang keluar pada togel hari ini, anda bisa mengunjungi situs kami langsung.");
+            $("meta[name='keywords']").attr(
+                "content",
+                "togel sidney, keluaran togel sidney"
+            );
             $("link[rel='canonical']").attr("href", "http://144.91.86.52/?content=hasil&pid=SY");
         });
     } else if (document.URL.indexOf("?content=hasil&pid=MAD") > 0) {
         $(document).ready(function () {
             document.title = "Togel Madrid | Hasil Result Hari Ini";
             $("meta[name='description']").attr("content", "Hasil dan keluaran togel madrid untuk yang melakukan pemasangan angka bersama kami. Doraslot melayani pembukaan akun dan pemasangan angka untuk togel madrid.");
+            $("meta[name='keywords']").attr(
+                "content",
+                "togel madrid, result togel hari ini"
+            );
             $("link[rel='canonical']").attr("href", "http://144.91.86.52/?content=hasil&pid=MAD");
         });
     } else if (document.URL.indexOf("?content=hasil&pid=SG") > 0) {
         $(document).ready(function () {
             document.title = "Togel Sgp | Togel Singapore | Hasil Togel Singapore";
             $("meta[name='description']").attr("content", "Hasil togel Singapore(sgp) bisa anda lihat disini juga. Doraslot memberikan peluang kepada anda untuk mendaftarkan diri anda dan memasang togel singapore bersama dengan kami.");
+            $("meta[name='keywords']").attr(
+                "content",
+                "togel sgp, hasil togel singapore"
+            );
             $("link[rel='canonical']").attr("href", "http://144.91.86.52/?content=hasil&pid=SG");
         });
     } else if (document.URL.indexOf("?content=hasil&pid=HK") > 0) {
         $(document).ready(function () {
             document.title = "Togel Hongkong | Toto HK | Result HK";
             $("meta[name='description']").attr("content", "Result Togel Hongkong yang kami publikasikan setiap harinya. Pemasangan togel 4D hongkong bersama dengan doraslot akan mendapatkan diskon besar.");
+            $("meta[name='keywords']").attr(
+                "content",
+                "togel hongkong, result toto hk"
+            );
             $("link[rel='canonical']").attr("href", "http://144.91.86.52/?content=hasil&pid=HK");
         });
     } else {
         $(document).ready(function () {
             document.title = "DoraSlot: Agen Togel Online | Judi Slot Terpercaya";
             $("meta[name='description']").attr("content", "Doraslot merupakan agen togel online. Melayani pemasangan angka 4D 3D 2D Colok dan masih banyak lainnya. Dora slot juga melayani pembukaan akun slot.");
+            $("meta[name='keywords']").attr(
+                "content",
+                "togel online, agen togel online, doraslot, judi togel online, agen judi togel terpercaya"
+            );
             $("link[rel='canonical']").attr("href", "http://144.91.86.52/");
         });
     }
