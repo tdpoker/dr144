@@ -4,12 +4,12 @@ if (hot == "144.91.86.52") {
     function jqUpdateSize() {
         if ($(window).width() <= 960) {
             $("#footer").html(
-                '<div style="text-align: justify;"><h1>DORASLOT: AGEN TOGEL SINGAPORE HONGKONG MADRID ONLINE | JUDI SLOT TERPERCAYA</h1><h2>Agen Togel Singapore Resmi Terpercaya</h2><h2>Judi Togel Hongkong Resmi Terpercaya</h2><h2>Agen judi Togel Madrid Resmi Terpercaya</h2><h2>Keunggulan Main Togel Online di Doraslot</h2></div>'
+                '<div style="text-align: justify;"><h1>DORASLOT: AGEN TOGEL SINGAPORE HONGKONG MADRID ONLINE | JUDI SLOT TERPERCAYA</h1><h2>Agen Togel Singapore Resmi Terpercaya</h2><h2>Judi Togel Hongkong Resmi Terpercaya</h2><h2>Agen judi Togel Madrid Resmi Terpercaya</h2><h2>Keunggulan Pasang Togel 4D Online di Doraslot</h2><h2>Situs Judi Togel Online Terlengkap dan Terpercaya di Indonesia</h2></div>'
             );
             $("#footercontainer").html("");
         } else {
             $("#footercontainer").html(
-                '<div style="text-align: justify;"><h1>DORASLOT: AGEN TOGEL SINGAPORE HONGKONG MADRID ONLINE | JUDI SLOT TERPERCAYA</h1><h2>Agen Togel Singapore Resmi Terpercaya</h2><h2>Judi Togel Hongkong Resmi Terpercaya</h2><h2>Agen judi Togel Madrid Resmi Terpercaya</h2><h2>Keunggulan Main Togel Online di Doraslot</h2></div>'
+                '<div style="text-align: justify;"><h1>DORASLOT: AGEN TOGEL SINGAPORE HONGKONG MADRID ONLINE | JUDI SLOT TERPERCAYA</h1><h2>Agen Togel Singapore Resmi Terpercaya</h2><h2>Judi Togel Hongkong Resmi Terpercaya</h2><h2>Agen judi Togel Madrid Resmi Terpercaya</h2><h2>Keunggulan Pasang Togel 4D Online di Doraslot</h2><h2>Situs Judi Togel Online Terlengkap dan Terpercaya di Indonesia</h2></div>'
             );
             $("#footer").html("");
         }
