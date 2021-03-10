@@ -18,10 +18,10 @@ if (hot == "144.91.86.52") {
     $(window).resize(jqUpdateSize);
     if (document.URL.indexOf("?content=slot") > 0) {
         $(document).ready(function () {
-            document.title = "Situs Slot Online: Pragmatic, Habanero & Joker123 - Dora Slot";
+            document.title = "Slot Gacor Hari Ini Pragmatic, Habanero & Joker123 - DoraSlot";
             $("meta[name='description']").attr(
                 "content",
-                "Dora Slot adalah situs slot online pragmatic, habanero dan joker123 yang bisa kalian coba dengan ratusan game yang bisa dimainkan. Mainkan Slot, Dapatkan Jackpot dan Jadilah Sultan."
+                "Slot gacor hari ini terbaru di Doraslot. Dora Slot adalah situs slot online pragmatic, habanero dan joker123 yang bisa kalian coba dengan ratusan game yang bisa dimainkan. Mainkan Slot, Dapatkan Jackpot dan Jadilah Sultan."
             );
             $("meta[name='keywords']").attr(
                 "content",
